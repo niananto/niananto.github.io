@@ -18,7 +18,6 @@
         </center>
         <!-- ekhane loop kore korte hobe eta -->
         <div class="header-tabs">
-            <p><a href="/home">Home</a></p>
             {%- for page in site.pages -%}
             <p><a href="{{base.url}}{{page.permalink | relative_url}}">{{page.title}}</a></p>
             {%- endfor -%}

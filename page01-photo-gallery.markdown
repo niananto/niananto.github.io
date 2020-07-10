@@ -6,6 +6,6 @@ permalink: /photo-gallery
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/photo-gallery' and image.extname == '.jpg' %}
-<img src="{{ site.baseurl }}/home/assets/images/photo-gallery/{{ image.name }}" alt="image" height="300px" />
+<img src="{{ site.baseurl }}/assets/images/photo-gallery/{{ image.name }}" alt="image" height="300px" />
     {% endif %}
 {% endfor %}

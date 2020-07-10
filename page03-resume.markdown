@@ -1,7 +1,7 @@
 ---
 layout: custom-page
 title: Resume
-permalink: /resume/
+permalink: /resume
 ---
 
 I am just a poor boy from a poor family  

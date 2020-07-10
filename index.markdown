@@ -6,6 +6,6 @@ layout: custom-home
 title: Home
 ---
 
-Welcome to my site!
+# Welcome to my site!  
 you can see a list of my posts in the *home*  
 find some of my photos in the *photo gallery*  

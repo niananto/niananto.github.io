@@ -1,7 +1,7 @@
 <header>
     <div class="header-content">
         <center>
-            <h2 class="site-title">{{ site.title }}</h2>
+            <h2 class="site-title">{{ site.title | escape }}</h2>
             <img src="/assets/images/ananto-dp.jpg" alt="profile_pic" height="250" style="border-radius: 50%;">
             <div class="profile-info">
                 <br>
@@ -18,7 +18,7 @@
         </center>
         <!-- ekhane loop kore korte hobe eta -->
         <div class="header-tabs">
-            <p><a href="/">Home</a></p>
+            <p><a href="/home/">Home</a></p>
             {%- for page in site.pages -%}
             <p><a href="{{page.permalink}}">{{page.title}}</a></p>
             {%- endfor -%}

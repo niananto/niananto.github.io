@@ -5,8 +5,6 @@ permalink: /photo-gallery
 ---
 
 chobi dekhba?<br>
-{%- for image in site.static_files -%}
-{%- if image.path contains 'images/photo-gallery' -%}
-![photo]({{site.url}}{{image.path}})
-{%- endif -%}
+{%- for i in (1..5) -%}
+![photo](https://niananto.github.io/home/assets/images/photo-gallery/photo-{{i}}.jpg)
 {%- endfor -%}

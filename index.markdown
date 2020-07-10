@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: custom-home
+title: Home
 ---
 
 Welcome to my site!

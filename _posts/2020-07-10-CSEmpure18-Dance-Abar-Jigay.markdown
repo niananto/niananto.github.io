@@ -2,7 +2,7 @@
 layout: custom-post
 author: Ananto
 title: Abar Jigay
-permalink: /abar-jigay/
+permalink: /abar-jigay
 ---
 
 On the 5th of March, BUET CSE'17 threw a receiption program for us, CSE'18.  

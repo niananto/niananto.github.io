@@ -2,7 +2,6 @@
 layout: custom-post
 author: Ananto
 title: Ananto's Jam
-permalink: /youtube-playlist
 show_excerpts: true
 excerpt_separator: <!-- end-excerpt -->
 ---

@@ -1,7 +1,7 @@
 ---
 layout: custom-page
 title: Photo Gallery
-permalink: /photo-gallery/
+permalink: /photo-gallery
 ---
 
 {% for image in site.static_files %}

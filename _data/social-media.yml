@@ -1,0 +1,50 @@
+# mapping values are not allowed in this context
+
+email:
+  id: 'nazmulislamananto@gmail.com'
+  # id = {{ site.author.email }}
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope'
+
+linkedin:
+  id: 'niananto'
+  # id = {{ site.linkedin_username }}
+  href: 'https://www.linkedin.com/in/'
+  title: LinkedIn
+  fa-icon: 'fa-linkedin'
+
+facebook:
+  id: 'nazmulislamananto'
+  # id = {{ site.facebook_username }}
+  href: 'https://www.facebook.com/'
+  title: 'Facebook'
+  fa-icon: 'fa-facebook'
+
+twitter:
+  id: 'nazmul_ananto'
+  # id = {{ site.twitter_username }}
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter'
+
+github:
+  id: 'niananto'
+  # id = {{ site.github_username }}
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github'
+
+instagram:
+  id: 'ananto___'
+  # id = {{ site.instagram_usrname }}
+  href: 'https://www.instagram.com/'
+  title: 'Instagram'
+  fa-icon: 'fa-instagram'
+
+reddit:
+  id: 'niananto'
+  # id = {{ site.reddit_username }}
+  href: 'https://www.reddit.com/user/'
+  title: 'Reddit'
+  fa-icon: 'fa-reddit'

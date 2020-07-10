@@ -18,25 +18,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: zzZZzz
-email: nazmulislamananto@gmail.com
+title: Nazmul Islam Ananto
+author:
+  name: AnantoAuthorName
+  email: nazmulislamananto@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Currently a student at Bangladesh University of Engineering and Technology (BUET) studying
-  Computer Science and Enginnering (CSE).
-baseurl: "" # the subpath of your site, e.g. /blog
+  Student at Bangladesh University of Engineering and Technology (BUET) studying
+  Computer Science and Engineering (CSE).
+# facebook_username: nazmulislamananto
+# twitter_username: nazmul_ananto
+# github_username: niananto
+# linkedin_username: niananto
+# instagram_username: ananto___
+# reddit_username: niananto
+
+baseurl: "home" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: nazmulislamananto
-twitter_username: nazmul_ananto
-github_username: niananto
-linkedin_username: niananto
-instagram_username: ananto___
+
+# show_excerpts: true # is false by default
 
 # Build settings
-theme: minima
+# theme: minima
 # theme: jekyll-theme-midnight
 # theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

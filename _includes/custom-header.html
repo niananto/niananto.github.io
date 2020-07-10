@@ -20,8 +20,9 @@
         <div class="header-tabs">
             <p><a href="/home">Home</a></p>
             {%- for page in site.pages -%}
-            <p><a href="{{page.permalink | relative_url}}">{{page.title}}</a></p>
+            <p><a href="{{base.url}}{{page.permalink | relative_url}}">{{page.title}}</a></p>
             {%- endfor -%}
         </div>
     </div>
 </header>
+https://niananto.github.io/home/

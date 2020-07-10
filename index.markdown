@@ -4,6 +4,7 @@
 
 layout: custom-home
 title: Home
+permalink: {{site.baseurl}}
 ---
 
 # Welcome to my site!  

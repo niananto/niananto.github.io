@@ -1,7 +1,7 @@
 ---
 layout: custom-page
 title: Projects
-permalink: /projects/
+permalink: /projects
 ---
   
 This is the list of my projects over the time :  

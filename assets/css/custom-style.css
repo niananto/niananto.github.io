@@ -1,5 +1,4 @@
 /* custom-default */
-
 html {
     font-family: 'Montserrat', serif;
 }
@@ -7,19 +6,17 @@ html {
 .window {
     display: table;
     width: 100%;
-    margin: 0px;
-    background: lightcyan; /* this is for debugging */
+    /* margin: 0px; */
+    /* background: lightcyan; this is for debugging */
 }
 
 .window .window-partition {
     display: table-cell;
-    background: lightcyan; /* this is for debugging */
+    /* background: lightcyan; this is for debugging */
 }
 
 #window-left {
     width: 25%;
-    /* background: lightcyan; */
-    /* background: rgb(250, 250, 163); */
     background: black;
     color: white;
 }
@@ -89,13 +86,24 @@ a:visited.post-link, a:link.post-link {
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */
 /* @media only screen and (max-width: 600px) {
     .window {
-        display: block !important;
+        display: inline-block;
     }
     .window-partition {
       display: block;
       width: 100%;
     }
     #window-left {
+        width: 100%;
         background: blue;
+        left: 0px;
+        top: 0px;
+        bottom: 300px;
+        right: 600px;
+    }
+    #window-right {
+        position: absolute;
+        left: 0px;
+        top: 600px;
+        right: 600em;
     }
   } */

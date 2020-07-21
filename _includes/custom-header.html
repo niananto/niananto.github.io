@@ -17,7 +17,7 @@
             <hr>
         </center>
         <div class="header-tabs">
-            <p><a href="{{site.url}}/">Home</a></p>
+            <p><a href="{{site.baseurl}}/">Home</a></p>
             {%- for page in site.header-tabs -%}
             <p><a href="{{site.url}}{{page.permalink | relative_url}}">{{page.title}}</a></p>
             {%- endfor -%}

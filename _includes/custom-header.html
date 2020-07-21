@@ -2,19 +2,19 @@
     <div class="header-content">
         <center>
             <h2 class="site-title">{{ site.title | escape }}</h2>
-            <img src="{{site.url}}assets/images/ananto-dp.jpg" alt="profile_pic" height="250" style="border-radius: 50%;">
+            <img src="{{site.url}}assets/images/ananto-dp.jpg" alt="profile-pic" class="profile-pic">
             <div class="profile-info">
-                <br>
+                <!-- <br> -->
                 <div class="site-description">
                     <p>{{ site.description }}</p>
                 </div>
-                <br>
+                <!-- <br> -->
                 <hr>
                 <div class="social-links">
                     {%- include social-media-links.html -%}
                 </div>
+                <hr>
             </div>
-            <hr>
         </center>
         <div class="header-tabs">
             <p><a href="{{site.baseurl}}/">Home</a></p>

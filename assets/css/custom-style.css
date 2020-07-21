@@ -37,13 +37,18 @@ html {
 }
 
 /* custom-header */
+.profile-pic {
+    height: 220px;
+    border-radius: 50%;
+}
+
 .header-content {
     margin: 20px;
 }
 
 .header-tabs {
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 55px;
     font-size: 20px;
 }
 

@@ -1,11 +1,11 @@
 # mapping values are not allowed in this context
 
-email:
-  id: 'nazmulislamananto@gmail.com'
-  # id = {{ site.author.email }}
-  href: 'mailto:'
-  title: 'Email'
-  fa-icon: 'fa-envelope'
+github:
+  id: 'niananto'
+  # id = {{ site.github_username }}
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github'
 
 linkedin:
   id: 'niananto'
@@ -28,13 +28,6 @@ twitter:
   title: 'Twitter'
   fa-icon: 'fa-twitter'
 
-github:
-  id: 'niananto'
-  # id = {{ site.github_username }}
-  href: 'https://github.com/'
-  title: 'GitHub'
-  fa-icon: 'fa-github'
-
 instagram:
   id: 'ananto___'
   # id = {{ site.instagram_usrname }}
@@ -48,3 +41,10 @@ reddit:
   href: 'https://www.reddit.com/user/'
   title: 'Reddit'
   fa-icon: 'fa-reddit'
+
+email:
+  id: 'nazmulislamananto@gmail.com'
+  # id = {{ site.author.email }}
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope'

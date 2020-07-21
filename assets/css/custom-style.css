@@ -6,13 +6,13 @@ html {
 .window {
     display: table;
     width: 100%;
-    /* margin: 0px; */
-    /* background: lightcyan; this is for debugging */
+    margin: 0px;
+    background: lightcyan; /* this is for debugging */
 }
 
 .window .window-partition {
     display: table-cell;
-    /* background: lightcyan; this is for debugging */
+    background: lightcyan; /* this is for debugging */
 }
 
 #window-left {

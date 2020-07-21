@@ -1,6 +1,5 @@
 ---
 layout: custom-home
-title: Home
 permalink: /
 ---
 

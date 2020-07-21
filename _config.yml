@@ -38,12 +38,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # show_excerpts: true # is false by default
 
 # Build settings
+# highlighter: true
+# markdown: kramdown
+# permalink: pretty
 # theme: minima
 # theme: jekyll-theme-midnight
 # theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
   # - jekyll-seo-tag
+
+# collections_dir: collections
+# collections:
+#   books:
+#     output: true
+#     permalink: /:collection/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.

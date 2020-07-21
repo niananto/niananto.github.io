@@ -55,13 +55,13 @@ collections:
     permalink: /:collection/:path
   header-tabs:
     output: true
-    order:
-      - about.md
-      - photo-gallery.md
-      - projects.md
-      - extra-curricular.md
-      - resume.md
-      - contact-me.md
+    # order: # this only works on jekyll v4.0 or higher, thus won't work on github as it uses v3.8.7
+    #   - about.md
+    #   - photo-gallery.md
+    #   - projects.md
+    #   - extra-curricular.md
+    #   - resume.md
+    #   - contact-me.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

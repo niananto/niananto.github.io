@@ -5,3 +5,4 @@ _site
 vendor
 *test*
 _includes/custom-head.html
+_includes/custom-header.html

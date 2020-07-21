@@ -29,6 +29,7 @@ html {
 .main-content {
     margin: 20px;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .post-content a:link, .post-content a:visited {

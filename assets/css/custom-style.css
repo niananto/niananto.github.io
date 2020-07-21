@@ -40,7 +40,10 @@ html {
 /* custom-header */
 .profile-pic {
     height: 220px;
+    width: 220px;
     border-radius: 50%;
+    object-fit: cover;
+	object-position: 0% 0%;
 }
 
 .header-content {

@@ -1,0 +1,26 @@
+<header>
+    <div class="header-content">
+        <center>
+            <h2 class="site-title">{{ site.title | escape }}</h2>
+            <img src="{{site.url}}assets/images/ananto-dp.jpg" alt="profile_pic" height="250" style="border-radius: 50%;">
+            <div class="profile-info">
+                <br>
+                <div class="site-description">
+                    <p>{{ site.description }}</p>
+                </div>
+                <br>
+                <hr>
+                <div class="social-links">
+                    {%- include social-media-links.html -%}
+                </div>
+            </div>
+            <hr>
+        </center>
+        <div class="header-tabs">
+            <p><a href="{{site.url}}/">Home</a></p>
+            {%- for page in site.header-tabs -%}
+            <p><a href="{{site.url}}{{page.permalink | relative_url}}">{{page.title}}</a></p>
+            {%- endfor -%}
+        </div>
+    </div>
+</header>

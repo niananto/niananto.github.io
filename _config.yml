@@ -55,6 +55,13 @@ collections:
     permalink: /:collection/:path
   header-tabs:
     output: true
+    order:
+      - about.md
+      - photo-gallery.md
+      - projects.md
+      - extra-curricular.md
+      - resume.md
+      - contact-me.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

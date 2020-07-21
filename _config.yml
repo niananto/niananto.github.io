@@ -49,10 +49,12 @@ plugins:
   # - jekyll-seo-tag
 
 # collections_dir: collections
-# collections:
-#   books:
-#     output: true
-#     permalink: /:collection/:title
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path
+  header-tabs:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

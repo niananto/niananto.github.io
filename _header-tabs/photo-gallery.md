@@ -15,10 +15,13 @@ permalink: /photo-gallery
 <!-- ![photo](https://niananto.github.io/home/assets/images/photo-gallery/photo-{{i}}.jpg){:height="200px"}&nbsp; -->
 <!-- {%- endfor -%} -->
 
-{%- assign image_files = site.static_files -%}
-{%- for myimage in image_files -%}
-{% if myimage.path contains "assets/images/photo-gallery" %} 
-![photo]({{ myimage.path | relative_url }}){:height="200px"}&nbsp;  <br>
-<img src="{{site.url}}{{ myimage.path | relative_url }}" height="200px" />
-{% endif %}
+{%- for myimage in site.static_files -%}
+{%- if myimage.path contains "assets/images/photo-gallery" -%}
+{%- if myimage.extname == ".jpg" or myimage.extname ==  ".JPG" or myimage.extname == ".jpeg" or myimage.extname == ".png" -%}
+<a href="{{site.url}}{{ myimage.path | relative_url }}">
+<!-- ![gallery-image]({{ myimage.path | relative_url }}){:height="200px"}&nbsp; -->
+<img src="{{site.url}}{{ myimage.path | relative_url }}" alt="gallery-image" height="200px" />
+</a>
+{%- endif -%}
+{%- endif -%}
 {%- endfor -%}

@@ -16,10 +16,9 @@
             </div>
             <hr>
         </center>
-        <!-- ekhane loop kore korte hobe eta -->
         <div class="header-tabs">
             <p><a href="{{site.url}}">Home</a></p>
-            {%- for page in site.pages -%}
+            {%- for page in site.header-tabs -%}
             <p><a href="{{site.url}}{{page.permalink | relative_url}}">{{page.title}}</a></p>
             {%- endfor -%}
         </div>

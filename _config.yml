@@ -62,6 +62,9 @@ collections:
     #   - extra-curricular.md
     #   - resume.md
     #   - contact-me.md
+  web-resume:
+    output: true
+    
 
 # Exclude from processing.
 # The following items will not be processed, by default.

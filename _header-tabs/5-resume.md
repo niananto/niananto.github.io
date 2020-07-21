@@ -3,12 +3,8 @@ layout: custom-page
 title: Resume
 permalink: /resume
 ---
-
-I am just a poor boy from a poor family  
-spare him his life from your montrosity  
-
-[resume](resume-sample.pdf)  
+*[Open pdf in new window]({%- link assets/pdf/ananto-resume.pdf -%})*  
+*[Open html in new window]({{site.url}}/web-resume)*  
 
 
-<br>
-<object data="resume-sample.pdf" width="100%" height="500" type='application/pdf'/>
+<object data="{%- link assets/pdf/ananto-resume.pdf -%}" width="100%" height="650" type='application/pdf'/>  

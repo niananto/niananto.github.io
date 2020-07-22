@@ -46,6 +46,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-thumbnail
   # - jekyll-seo-tag
 
 # collections_dir: collections

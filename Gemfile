@@ -14,7 +14,7 @@ gem "jekyll", "~> 3.8.7"
 # gem "jekyll-theme-architect"
 
 # gem 'exifr'
-# gem "jekyll-thumbnail"
+gem "jekyll-thumbnail"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

@@ -17,7 +17,7 @@ permalink: /photo-gallery
 
 {%- for myimage in site.static_files -%}
 {%- if myimage.path contains "assets/img/photo-gallery/" -%}
-{%- if myimage.path contains "/thumb" -%}
+{%- if myimage.path contains "thumb" or myimage.path contains "backup" -%}
 {%- continue -%}
 {%- endif -%}
 

@@ -16,13 +16,19 @@ permalink: /photo-gallery
 <!-- adding class="justified-gallery" here would hide the photos until everything is loaded, which makes it too slow -->
 
 {%- for myimage in site.static_files -%}
-    {%- if myimage.path contains "assets/img/photo-gallery" -%}
-        {%- if myimage.extname == ".jpg" or myimage.extname ==  ".JPG" or myimage.extname == ".jpeg" or myimage.extname == ".png" -%}
-            <a href="{{site.url}}{{ myimage.path | relative_url }}">
-                <img src="{{site.url}}{{ myimage.path | relative_url }}" height="200px" />
-            </a>
-        {%- endif -%}
-    {%- endif -%}
+{%- if myimage.path contains "assets/img/photo-gallery/" -%}
+{%- if myimage.path contains "/thumb" -%}
+{%- continue -%}
+{%- endif -%}
+
+{%- if myimage.extname == ".jpg" or myimage.extname ==  ".JPG" or myimage.extname == ".jpeg" or myimage.extname == ".png" -%}
+
+<a href="{{site.url}}{{ myimage.path | relative_url }}">
+<img src="{{site.url}}{{ myimage.path | remove: myimage.name | append: "thumb/" | append: myimage.name | relative_url }}" height="200px" />
+</a>
+
+{%- endif -%}
+{%- endif -%}
 {%- endfor -%}
 
 </div>

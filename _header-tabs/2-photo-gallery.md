@@ -19,7 +19,7 @@ permalink: /photo-gallery
     {%- if myimage.path contains "assets/img/photo-gallery" -%}
         {%- if myimage.extname == ".jpg" or myimage.extname ==  ".JPG" or myimage.extname == ".jpeg" or myimage.extname == ".png" -%}
             <a href="{{site.url}}{{ myimage.path | relative_url }}">
-                <img src="{{site.url}}{{ myimage.path | relative_url }}"height="200px" />
+                <img src="{{site.url}}{{ myimage.path | relative_url }}" height="200px" />
             </a>
         {%- endif -%}
     {%- endif -%}

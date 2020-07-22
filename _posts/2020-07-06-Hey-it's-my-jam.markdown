@@ -1,5 +1,5 @@
 ---
-layout: custom-post
+layout: post
 author: Ananto
 title: Ananto's Jam
 permalink: /youtube-playlist

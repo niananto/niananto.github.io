@@ -1,0 +1,123 @@
+/* default */
+html * {
+    font-family: 'Montserrat', serif;
+}
+
+.window {
+    display: table;
+    width: 100%;
+    margin: 0px;
+    /* background: lightcyan; /* this is for debugging */
+    background: #d3fcff;
+}
+
+.window .window-partition {
+    display: table-cell;
+    /* background: lightcyan; /* this is for debugging */
+    background: #d3fcff;
+}
+
+#window-left {
+    width: 25%;
+    background: black;
+    color: white;
+}
+
+#window-right {
+    background: #d3fcff;
+    /* background: lightcyan; */
+}
+
+.main-content {
+    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.post-content a:link, .post-content a:visited {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+/* header */
+.profile-pic {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+	object-position: 0% 0%;
+}
+
+.header-content {
+    margin: 20px;
+}
+
+.header-tabs {
+    margin-top: 30px;
+    margin-left: 12%;
+    font-size: 20px;
+}
+
+.header-tabs a:link, .header-tabs a:visited {
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+    /* background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; */
+}
+
+/* .header-tabs a:hover, a:active {
+    background-color: red;
+} */
+
+/* home */
+a:visited.post-link, a:link.post-link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* post */
+.post-meta {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.dt-published, .dt-modified {
+    color: rgb(167, 164, 164);
+}
+
+.p-author h-card {
+    color: rgb(90, 90, 90);
+}
+
+/* photo-gallery */
+
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+/* @media only screen and (max-width: 600px) {
+    .window {
+        display: inline-block;
+    }
+    .window-partition {
+      display: block;
+      width: 100%;
+    }
+    #window-left {
+        width: 100%;
+        background: blue;
+        left: 0px;
+        top: 0px;
+        bottom: 300px;
+        right: 600px;
+    }
+    #window-right {
+        position: absolute;
+        left: 0px;
+        top: 600px;
+        right: 600em;
+    }
+  } */

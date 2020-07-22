@@ -1,5 +1,5 @@
 ---
-layout: custom-post
+layout: post
 author: Ananto
 title: Abar Jigay
 permalink: /abar-jigay

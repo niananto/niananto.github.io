@@ -1,5 +1,5 @@
 ---
-layout: custom-page
+layout: page
 title: Four in A Row
 ---
 

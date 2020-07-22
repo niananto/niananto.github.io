@@ -11,7 +11,7 @@ permalink: /photo-gallery
 
 
 <br>
-<div id="lightgallery">
+<div id="gallery">
 
 {%- for myimage in site.static_files -%}
     {%- if myimage.path contains "assets/img/photo-gallery" -%}

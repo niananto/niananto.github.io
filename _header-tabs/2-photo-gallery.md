@@ -12,8 +12,8 @@ permalink: /photo-gallery
 <!-- ![gallery-image]({{ myimage.path | relative_url }}){:height="200px"}&nbsp; -->
 
 <br>
-<div id="gallery">
-<!-- adding class="justified-gallery" here would hide the photos until everything is loaded, which makes it too slow -->
+<div id="gallery" class="justified-gallery">
+<!-- adding class="justified-gallery" here would hide the photos until everything is loaded, which makes it slow unless you uses thumbnails -->
 
 {%- for myimage in site.static_files -%}
 {%- if myimage.path contains "assets/img/photo-gallery/" -%}

@@ -97,7 +97,7 @@ html * {
     .header-tabs {
         padding-top: 1px;
         padding-left: 12%;
-        font-size: 20px;
+        font-size: 1.25em;
     }
 
     .header-tabs a:link, .header-tabs a:visited {

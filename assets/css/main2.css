@@ -89,14 +89,14 @@ html * {
     }
 
     .header-content {
-        /* padding: 1px; */
+        /* padding: 10px; */
         padding-left: 10px;
         padding-right: 10px;
     }
 
     .header-tabs {
-        margin-top: 10px;
-        margin-left: 12%;
+        padding-top: 1px;
+        padding-left: 12%;
         font-size: 20px;
     }
 

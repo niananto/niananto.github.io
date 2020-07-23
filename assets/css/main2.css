@@ -51,6 +51,9 @@ html {
     /* text-align: center; doesn't work as h2 is a block element */
     /* font-size: 1.5em;
     font-weight: bolder; */
+    position: absolute;
+    top: 20px;
+    left: 100px;
 }
 
 .header-content a.burger-icon {
@@ -59,7 +62,7 @@ html {
     background: black;
     color: #d3fcff;
     position: absolute;
-    top: 15px;
+    top: 10px;
     right: 10px;
 }
 
@@ -75,12 +78,14 @@ html {
 }
 
 .profile-pic {
-    display: none;
-    height: 100px;
-    width: 100px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     object-fit: cover;
     object-position: 0% 0%;
+    position: relative;
+    top: -10px;
 }
 
 .site-description {
@@ -96,6 +101,7 @@ html {
     padding-top: 1px;
     padding-left: 12%;
     font-size: 1.25em;
+    text-align: center;
 }
 
 #header-tabs a:link, #header-tabs a:visited {

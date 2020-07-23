@@ -198,6 +198,7 @@ a:visited.post-link, a:link.post-link {
         color: white;
         text-decoration: none;
         /* text-align: center; doesn't work as h2 is a block element */
+        position: static;
     }
 
     .burger-icon {
@@ -213,6 +214,7 @@ a:visited.post-link, a:link.post-link {
         border-radius: 50%;
         object-fit: cover;
         object-position: 0% 0%;
+        position: static;
     }
 
     .site-description {

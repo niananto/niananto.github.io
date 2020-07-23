@@ -189,7 +189,7 @@ a:visited.post-link, a:link.post-link {
     }
 
     .burger-icon {
-        display: none;
+        display: none !important;
     }
 
     .profile-pic {

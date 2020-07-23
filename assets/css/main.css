@@ -94,9 +94,6 @@ a:visited.post-link, a:link.post-link {
     color: rgb(90, 90, 90);
 }
 
-/* photo-gallery */
-
-
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */
 /* @media only screen and (max-width: 600px) {
     .window {

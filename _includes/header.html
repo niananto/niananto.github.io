@@ -1,7 +1,7 @@
 <header>
     <div class="header-content">
-        <center>
-            <h2 class="site-title">{{ site.title | escape }}</h2>
+        <!-- <center> -->
+            <h2  class="site-title"><a href="{{site.baseurl}}">{{ site.title | escape }}</a></h2>
             <img src="{{site.baseurl}}{%- link assets/img/profile-pic/ananto-dp.jpg -%}" alt="profile-pic" class="profile-pic" />
             <div class="profile-info">
                 <!-- <br> -->
@@ -9,18 +9,32 @@
                     <p>{{ site.description }}</p>
                 </div>
                 <!-- <br> -->
-                <hr>
                 <div class="social-links">
+                    <hr>
                     {%- include social-media-links.html -%}
+                    <hr>
                 </div>
-                <hr>
             </div>
-        </center>
-        <div class="header-tabs">
+        <!-- </center> -->
+        <div id="header-tabs">
             <p><a href="{{site.baseurl}}/">Home</a></p>
             {%- for page in site.header-tabs -%}
             <p><a href="{{site.url}}{{page.permalink | relative_url}}">{{page.title}}</a></p>
             {%- endfor -%}
         </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="burger-icon" onclick="burgerMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+    <script>
+        function burgerMenu() {
+            var x = document.getElementById("header-tabs");
+            if (x.style.display === "inline") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "inline";
+            }
+        }
+    </script>
 </header>

@@ -59,13 +59,19 @@ html {
     background: black;
     color: #d3fcff;
     position: absolute;
-    top: 23px;
-    right: 5px;
+    top: 15px;
+    right: 10px;
 }
 
-.header-content a:hover.burger-icon {
+.header-content a:active.burger-icon {
     background-color: #d3fcff;
     color: black;
+}
+
+.header-content a i {
+    /* height: 100px;
+    width: 100px; */
+    font-size: 40px;
 }
 
 .profile-pic {

@@ -52,8 +52,9 @@ html {
     /* font-size: 1.5em;
     font-weight: bolder; */
     position: absolute;
-    top: 20px;
-    left: 100px;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header-content a.burger-icon {

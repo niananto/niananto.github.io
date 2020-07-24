@@ -3,6 +3,11 @@ layout: gallery
 title: Photo Gallery
 permalink: /photo-gallery
 ---
+<style>
+    #window-right {
+    background: #ddd;
+}
+</style>
 
 <!-- ![photo]({{ "{% thumbnail /assets/img/photo-gallery/photo-1.jpg 50x50 " }}%})   -->
 <!-- {{ "{% thumbnail https://niananto.github.io/home/assets/img/photo-gallery/photo-1.png 50x50 " }}%}   -->

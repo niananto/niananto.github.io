@@ -92,8 +92,20 @@ html {
     display: none;
 }
 
-.social-links {
+#social-links {
     display: none;
+    /* position: absolute;
+    bottom: 10px;
+    left: 5%;
+    width: 90%; */
+}
+
+#social-media {
+    text-align: center;
+}
+
+a.social-icons i {
+    font-size: 40px;
 }
 
 #header-tabs {
@@ -222,17 +234,24 @@ a:visited.post-link, a:link.post-link {
         text-align: center;
     }
     
-    .social-links {
+    #social-links {
         display: inline;
+        position: static;
         text-align: center;
     }
-    
+
+    a.social-icons i{
+        font-size: 30px;
+    }
+
     #header-tabs {
         display: inline;
         text-align: left;
-        margin-top: 0px;
-        margin-left: 12%;
         font-size: 1.25em;
+    }
+
+    #header-tabs p {
+        padding-left: 20px;
     }
 
     #header-tabs a:link, #header-tabs a:visited {

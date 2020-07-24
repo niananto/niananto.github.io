@@ -9,7 +9,7 @@
                     <p>{{ site.description }}</p>
                 </div>
                 <!-- <br> -->
-                <div class="social-links">
+                <div id="social-links">
                     <hr>
                     {%- include social-media-links.html -%}
                     <hr>
@@ -35,6 +35,15 @@
             } else {
                 x.style.display = "inline";
             }
+            var y = document.getElementById("social-links");
+            if (y.style.display === "inline") {
+                y.style.display = "none";
+            } else {
+                y.style.display = "inline";
+            }
+            // y.style.color = "blue";
+            // y.style.position = "absolute";
+            // y.style.bottom = "10px";
         }
     </script>
 </header>

@@ -3,6 +3,11 @@ layout: page
 title: Projects
 permalink: /projects
 ---
+<style>
+    #window-right {
+    background: #ffe8e8;
+}
+</style>
   
 This is the list of my projects over the time :  
   

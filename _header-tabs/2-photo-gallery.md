@@ -5,7 +5,7 @@ permalink: /photo-gallery
 ---
 <style>
     #window-right {
-    background: #ddd;
+    background: #fff;
 }
 </style>
 

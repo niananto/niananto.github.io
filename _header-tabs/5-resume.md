@@ -3,6 +3,12 @@ layout: page
 title: Resume
 permalink: /resume
 ---
+<style>
+    #window-right {
+    background: #ddd;
+}
+</style>
+
 *[Open pdf in new window]({{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%})*  
 *[Open html in new window]({{site.baseurl}}/web-resume)*  
 

@@ -22,6 +22,7 @@ html {
     margin: 0px;
 }
 #window-right {
+    /* background: lightcyan; */
     background: #d3fcff;
 }
 
@@ -113,6 +114,8 @@ a.social-icons i {
     display: none;
     padding-top: 1px;
     padding-left: 12%;
+    position: relative;
+    top: -35px;
     font-size: 1.25em;
     text-align: center;
 }
@@ -239,14 +242,17 @@ a:visited.post-link, a:link.post-link {
         display: inline;
         position: static;
         text-align: center;
+        letter-spacing: 0.4em;
     }
 
     a.social-icons i{
-        font-size: 30px;
+        font-size: 120%;
     }
 
     #header-tabs {
         display: inline;
+        position: relative;
+        top: -35px;
         text-align: left;
         font-size: 1.25em;
     }

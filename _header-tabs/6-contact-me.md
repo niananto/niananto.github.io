@@ -2,6 +2,7 @@
 layout: page
 title: Contact Me
 permalink: /contact-me
+fa-icon: "far fa-address-card"
 ---
 
 <style>

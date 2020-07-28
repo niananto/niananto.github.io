@@ -2,6 +2,7 @@
 layout: gallery
 title: Photo Gallery
 permalink: /photo-gallery
+fa-icon: "fas fa-images"
 ---
 <style>
     #window-right {

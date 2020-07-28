@@ -7,25 +7,28 @@ html * {
 html {
     font-size: 20px;
 }
+
 .window {
     /* background: #d3fcff; */
     background: black;
     margin: 0px;
     width: 100%;
 }
+
 .window-partition {
     background: #d3fcff;
 }
+
 #window-left {
     background: black;
     color: white;
     margin: 0px;
 }
+
 #window-right {
     /* background: lightcyan; */
     background: #d3fcff;
 }
-
 
 .main-content {
     padding: 20px;
@@ -174,16 +177,18 @@ a:visited.post-link, a:link.post-link {
     .window .window-partition {
         display: table-cell;
         margin: 0px;
+        padding: 0px;
         /* background: lightcyan; /* this is for debugging */
         background: #d3fcff;
     }
 
     #window-left {
-        position: fixed;
+        /* position: fixed; */
         width: 25%;
         height: 100%;
         overflow: auto;
         margin: 0px;
+        padding: 0px;
         background: black;
         color: white;
     }
@@ -209,7 +214,8 @@ a:visited.post-link, a:link.post-link {
 
     /* header */
     .header-content {
-        /* padding: 10px; */
+        position: relative;
+        top: -40px;
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
@@ -223,8 +229,28 @@ a:visited.post-link, a:link.post-link {
         position: static;
     }
 
-    .burger-icon {
-        display: none !important;
+    div.header-content a.burger-icon {
+        display: block;
+        padding: 8px 10px;
+        background: black;
+        color: #d3fcff;
+        width: 35px;
+        position: relative;
+        top: 10px;
+        left: 2px;
+        right: unset;
+        /* z-index: 1; */
+    }
+    
+    .header-content a:active.burger-icon {
+        background-color: #d3fcff;
+        color: black;
+    }
+    
+    .header-content a i {
+        /* height: 100px;
+        width: 100px; */
+        font-size: 150%;
     }
 
     .profile-pic {
@@ -263,9 +289,19 @@ a:visited.post-link, a:link.post-link {
         font-size: 1.25em;
     }
 
-    #header-tabs p {
+    div#header-tabs p {
         margin: 12px;
         padding-left: 20px;
+        text-align: left;
+    }
+    
+    div#header-tabs p a i {
+        font-size: 100%;
+    }
+
+    div#header-tabs p a span {
+        position: relative;
+        left: 10px;
     }
 
     #header-tabs a:link, #header-tabs a:visited {
@@ -283,6 +319,10 @@ a:visited.post-link, a:link.post-link {
     /* .header-tabs a:hover, a:active {
         background-color: red;
     } */
+
+    .header-tab-text {
+        display: inline;
+    }
 
     /* home */
     a:visited.post-link, a:link.post-link {

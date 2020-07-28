@@ -2,6 +2,7 @@
 layout: page
 title: Extra Curricular
 permalink: /extra-curricular
+fa-icon: "fas fa-trophy"
 ---
 <style>
     #window-right {

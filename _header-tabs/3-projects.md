@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects
+fa-icon: "fas fa-project-diagram"
 ---
 <style>
     #window-right {

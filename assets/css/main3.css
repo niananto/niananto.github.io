@@ -291,7 +291,8 @@ a:visited.post-link, a:link.post-link {
     }
     
     .site-description {
-        display: inline;
+        display: block;
+        margin-top: 0.3em;
         text-align: center;
     }
     

@@ -28,7 +28,7 @@ function burgerMenu() {
             windowLeft.style.height = "100%";
         }
 
-        var headerTabTexts = document.getElementsByClassName("header-tab-text");
+        var headerTabTexts = document.querySelectorAll("span.header-tab-text");
         for (let i = 0; i < headerTabTexts.length; i++) {
             if (headerTabTexts[i].style.display === "inline") {
                 headerTabTexts[i].style.display = "none";
@@ -44,7 +44,7 @@ function burgerMenu() {
             profilePic.style.display = "inline-block";
         }
 
-        var siteTitle = document.querySelector("h2.site-title");
+        var siteTitle = document.querySelector("span.site-title");
         if (siteTitle.style.display === "block") {
             siteTitle.style.display = "none";
         } else {

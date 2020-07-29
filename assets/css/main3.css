@@ -48,7 +48,17 @@ html {
     padding-right: 10px;
 }
 
-.site-title a {
+span.site-title {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+span.site-title a {
     display: inline;
     color: white;
     text-decoration: none;
@@ -177,24 +187,24 @@ a:visited.post-link, a:link.post-link {
     .window .window-partition {
         display: table-cell;
         margin: 0px;
-        padding: 0px;
+        /* padding: 0px; */
         /* background: lightcyan; /* this is for debugging */
         background: #d3fcff;
     }
 
-    #window-left {
+    div#window-left {
         /* position: fixed; */
         width: 25%;
         height: 100%;
         overflow: auto;
         margin: 0px;
-        padding: 0px;
+        /* padding: 0px; */
         background: black;
         color: white;
         transition: 0.05s;
     }
 
-    #window-right {
+    div#window-right {
         position: relative;
         /* left: 25%; */
         width: 75%;
@@ -222,7 +232,17 @@ a:visited.post-link, a:link.post-link {
         padding-right: 10px;
     }
 
-    .site-title a {
+    span.site-title {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    span.site-title a {
         display: inline;
         color: white;
         text-decoration: none;
@@ -254,7 +274,7 @@ a:visited.post-link, a:link.post-link {
         font-size: 150%;
     }
 
-    .profile-pic {
+    img.profile-pic {
         display: inline-block;
         text-align: center;
         margin-top: 10px;
@@ -266,6 +286,10 @@ a:visited.post-link, a:link.post-link {
         position: static;
     }
 
+    div.profile-info {
+        display: inline;
+    }
+    
     .site-description {
         display: inline;
         text-align: center;
@@ -321,7 +345,7 @@ a:visited.post-link, a:link.post-link {
         background-color: red;
     } */
 
-    .header-tab-text {
+    span.header-tab-text {
         display: inline;
     }
 

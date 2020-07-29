@@ -32,7 +32,7 @@ div#window-left {
 div#window-right {
     /* background: lightcyan; */
     background: #d3fcff;
-    min-height: 90.5vh;
+    min-height: calc(100vh - 55px - 108px);
 }
 
 .main-content {

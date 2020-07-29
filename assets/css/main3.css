@@ -78,7 +78,7 @@ span.site-title a {
     color: #d3fcff;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 6%;
 }
 
 .header-content a:active.burger-icon {
@@ -101,6 +101,10 @@ span.site-title a {
     object-position: 0% 0%;
     position: relative;
     top: -10px;
+    left: 5%;
+    /* top: 22px;
+    left: 50%;
+    transform: translateX(-50%); */
 }
 
 .site-description {
@@ -113,10 +117,8 @@ span.site-title a {
     bottom: 10px;
     left: 5%;
     width: 90%; */
-}
-
-#social-media {
     text-align: center;
+    letter-spacing: 0.5em;
 }
 
 a.social-icons i {

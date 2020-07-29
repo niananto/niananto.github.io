@@ -5,7 +5,7 @@ permalink: /photo-gallery
 fa-icon: "fas fa-images"
 ---
 <style>
-    #window-right {
+    div#window-right {
     background: #fff;
 }
 </style>

@@ -5,7 +5,7 @@ permalink: /extra-curricular
 fa-icon: "fas fa-trophy"
 ---
 <style>
-    #window-right {
+    div#window-right {
     /* background: #a8ffbf; */
     background: #ccffd9;
 }

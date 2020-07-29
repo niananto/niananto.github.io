@@ -6,7 +6,7 @@ fa-icon: "far fa-address-card"
 ---
 
 <style>
-    #window-right {
+    div#window-right {
     background: #fff6af;
 }
 </style>

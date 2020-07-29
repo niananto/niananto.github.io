@@ -5,7 +5,7 @@ permalink: /projects
 fa-icon: "fas fa-project-diagram"
 ---
 <style>
-    #window-right {
+    div#window-right {
     background: #ffe8e8;
 }
 </style>

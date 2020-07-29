@@ -5,7 +5,7 @@ permalink: /resume
 fa-icon: "fas fa-file"
 ---
 <style>
-    #window-right {
+    div#window-right {
     background: #ddd;
 }
 </style>

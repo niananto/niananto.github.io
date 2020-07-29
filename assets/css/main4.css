@@ -229,6 +229,7 @@ object#resume-pdf {
     .window {
         display: table;
         width: 100%;
+        height: 100%;
         margin: 0px;
         /* background: lightcyan; /* this is for debugging */
         background: #d3fcff;
@@ -258,6 +259,7 @@ object#resume-pdf {
         position: relative;
         /* left: 25%; */
         width: 75%;
+        height: 100%;
         /* background: lightcyan; */
         background: #d3fcff;
     }

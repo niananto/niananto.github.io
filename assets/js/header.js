@@ -10,12 +10,12 @@ function burgerMenu() {
         } else {
             x.style.display = "inline";
         }
-        var y = document.getElementById("social-links");
-        if (y.style.display === "inline") {
-            y.style.display = "none";
-        } else {
-            y.style.display = "inline";
-        }
+        // var y = document.getElementById("social-links");
+        // if (y.style.display === "inline") {
+        //     y.style.display = "none";
+        // } else {
+        //     y.style.display = "inline";
+        // }
     
     } else {
         

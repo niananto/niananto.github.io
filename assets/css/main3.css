@@ -19,13 +19,13 @@ html {
     background: #d3fcff;
 }
 
-#window-left {
+div#window-left {
     background: black;
     color: white;
     margin: 0px;
 }
 
-#window-right {
+div#window-right {
     /* background: lightcyan; */
     background: #d3fcff;
 }
@@ -132,7 +132,15 @@ a.social-icons i {
     position: relative;
     top: -35px;
     font-size: 1.25em;
-    text-align: center;
+    text-align: right;
+}
+
+div#header-tabs p {
+    /* width: 260px; */
+    /* min-width: 100px; */
+    position: relative;
+    right: 5%;
+    /* transform: translateX(-50%); */
 }
 
 #header-tabs a:link, #header-tabs a:visited {

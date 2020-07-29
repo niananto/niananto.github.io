@@ -10,8 +10,9 @@ fa-icon: "fas fa-file"
 }
 </style>
 
-*[Open pdf in new window]({{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%})*  
-*[Open html in new window]({{site.baseurl}}/web-resume)*  
+*[Open in HTML]({{site.baseurl}}/web-resume)*  
 
+*[Download]({{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%})*  
 
-<object data="{{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%}" width="100%" height="650" type='application/pdf'/>  
+<br>
+<object id="resume-pdf" data="{{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%}" width="100%" height="650" type='application/pdf'/>  

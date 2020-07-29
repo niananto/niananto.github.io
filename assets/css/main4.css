@@ -13,21 +13,26 @@ html {
     background: black;
     margin: 0px;
     width: 100%;
+    height: 100%;
 }
 
 .window-partition {
     background: #d3fcff;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 div#window-left {
     background: black;
     color: white;
     margin: 0px;
+    /* height: 10%; */
 }
 
 div#window-right {
     /* background: lightcyan; */
     background: #d3fcff;
+    min-height: 92.5vh;
 }
 
 .main-content {
@@ -207,6 +212,11 @@ a:visited.post-link, a:link.post-link {
 
 .p-author h-card {
     color: rgb(90, 90, 90);
+}
+
+/* resume */
+object#resume-pdf {
+    display: none;
 }
 
 
@@ -422,6 +432,11 @@ a:visited.post-link, a:link.post-link {
 
     .p-author h-card {
         color: rgb(90, 90, 90);
+    }
+
+    /* resume */
+    object#resume-pdf {
+        display: unset;
     }
 
 }

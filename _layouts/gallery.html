@@ -8,6 +8,14 @@
         <div class="window-partition" id="window-left">
             {%- include header.html -%}
         </div>
+        
+        <!-- this is to automatic set this page in full view mode -->
+        <script>
+            if ( window.innerWidth > 1000 ) {
+                burgerMenu();
+            }
+        </script>
+
         <div class="window-partition" id="window-right">
             <main>
                 <div class="main-content">

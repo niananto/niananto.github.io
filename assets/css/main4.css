@@ -119,7 +119,7 @@ span.site-title a {
     font-size: 40px;
 }
 
-.profile-pic {
+img.profile-pic {
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -244,10 +244,13 @@ object#resume-pdf {
     }
 
     div#window-left {
-        /* position: fixed; */
+        position: fixed;
         width: 25%;
+        /* min-height: 100vh; */
+        /* max-height: 100vh; */
         height: 100%;
-        overflow: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
         margin: 0px;
         /* padding: 0px; */
         background: black;
@@ -256,10 +259,10 @@ object#resume-pdf {
     }
 
     div#window-right {
-        position: relative;
+        position: static;
         /* left: 25%; */
         width: 75%;
-        height: 100%;
+        height: 100vh;
         /* background: lightcyan; */
         background: #d3fcff;
     }
@@ -281,11 +284,11 @@ object#resume-pdf {
 
     /* header */
     .header-content {
-        position: relative;
-        top: -40px;
+        /* position: relative; */
+        /* top: -40px; */
         text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     span.site-title {
@@ -314,8 +317,9 @@ object#resume-pdf {
         width: 35px;
         position: relative;
         top: 10px;
-        left: 2px;
-        right: unset;
+        left: 12%;
+        right: auto;
+        transform: translateX(-50%);
         /* z-index: 1; */
     }
     
@@ -381,6 +385,8 @@ object#resume-pdf {
         transform: unset;
         margin: 12px;
         padding-left: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         text-align: left;
     }
     

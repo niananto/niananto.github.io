@@ -18,14 +18,12 @@ function burgerMenu() {
         // }
     
     } else {
-        
-        var windowLeft = document.querySelector("div#window-left");
-        if (windowLeft.style.width === "25%") {
-            windowLeft.style.width = "1%";
-            windowLeft.style.height = window.innerHeight + 'px';
+
+        var burgerMenuIcon = document.querySelector("div.header-content a.burger-icon");
+        if ( burgerMenuIcon.style.left === "12%") {
+            burgerMenuIcon.style.left = "50%";
         } else {
-            windowLeft.style.width = "25%";
-            windowLeft.style.height = "100%";
+            burgerMenuIcon.style.left = "12%";
         }
 
         var headerTabTexts = document.querySelectorAll("span.header-tab-text");
@@ -52,10 +50,10 @@ function burgerMenu() {
         }
 
         var profileInfo = document.querySelector("div.profile-info");
-        if (profileInfo.style.display === "block") {
+        if (profileInfo.style.display === "inline") {
             profileInfo.style.display = "none";
         } else {
-            profileInfo.style.display = "block";
+            profileInfo.style.display = "inline";
         }
 
         var headerTabs = document.getElementById("header-tabs");
@@ -77,6 +75,24 @@ function burgerMenu() {
                 headerTabsP[i].style.textAlign = "left";
             }
         }
+                
+        var windowLeft = document.querySelector("div#window-left");
+        var windowRight = document.querySelector("div#window-right");
+        if (windowLeft.style.width === "25%") {
+            windowLeft.style.width = "5%";
+            windowLeft.style.height = window.innerHeight + 'px';
+            windowRight.style.width = "95%";
+        } else {
+            windowLeft.style.width = "25%";
+            windowLeft.style.height = "100%";
+            windowRight.style.width = "75%";
+        }
 
+        // var windowRight = document.querySelector("div#window-right");
+        // if ( windowRight.style.width === "95%") {
+        //     windowRight.style.width = "75%";
+        // } else {
+        //     windowRight.style.width = "95%";
+        // }
     }
 }

@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: page
 title: Photo Gallery
 permalink: /photo-gallery
 fa-icon: "fas fa-images"
@@ -39,3 +39,7 @@ fa-icon: "fas fa-images"
 
 </div>
 <br>
+
+{%- include justifiedgallery.html -%}
+<!-- {%- include lightbox.html -%} -->
+{%- include lightgallery.html -%}

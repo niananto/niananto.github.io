@@ -20,10 +20,10 @@ function burgerMenu() {
     } else {
 
         var burgerMenuIcon = document.querySelector("div.header-content a.burger-icon");
-        if ( burgerMenuIcon.style.left === "12%") {
+        if ( burgerMenuIcon.style.left === "6%") {
             burgerMenuIcon.style.left = "50%";
         } else {
-            burgerMenuIcon.style.left = "12%";
+            burgerMenuIcon.style.left = "6%";
         }
 
         var headerTabTexts = document.querySelectorAll("span.header-tab-text");
@@ -58,8 +58,8 @@ function burgerMenu() {
 
         var headerTabs = document.getElementById("header-tabs");
         var headerTabsP = document.querySelectorAll("div#header-tabs p");
-        if (headerTabs.style.top === "-35px") {
-            headerTabs.style.top = "40px";
+        if (headerTabs.style.marginTop === "18%") {
+            headerTabs.style.marginTop = "30vh";
             for ( let i = 0; i<headerTabsP.length; i++) {
                 headerTabsP[i].style.paddingLeft = "0px";
                 headerTabsP[i].style.paddingTop = "10px";
@@ -67,9 +67,9 @@ function burgerMenu() {
                 headerTabsP[i].style.textAlign = "center";
             }
         } else {
-            headerTabs.style.top = "-35px";
+            headerTabs.style.marginTop = "18%";
             for ( let i = 0; i<headerTabsP.length; i++) {
-                headerTabsP[i].style.paddingLeft = "20px";
+                headerTabsP[i].style.paddingLeft = "10px";
                 headerTabsP[i].style.paddingTop = "0px";
                 headerTabsP[i].style.paddingBottom = "0px";
                 headerTabsP[i].style.textAlign = "left";
@@ -78,14 +78,14 @@ function burgerMenu() {
                 
         var windowLeft = document.querySelector("div#window-left");
         var windowRight = document.querySelector("div#window-right");
-        if (windowLeft.style.width === "25%") {
+        if (windowLeft.style.width === "330px") {
             windowLeft.style.width = "56px";
             // windowLeft.style.height = window.innerHeight + 'px';
             windowRight.style.width = "calc(100vw - 56px)";
         } else {
-            windowLeft.style.width = "25%";
-            // windowLeft.style.height = "100%";
-            windowRight.style.width = "75%";
+            windowLeft.style.width = "330px";
+            // windowLeft.style.height = window.innerHeight + 'px';
+            windowRight.style.width = "calc(100vw - 330px)";
         }
 
         // var windowRight = document.querySelector("div#window-right");

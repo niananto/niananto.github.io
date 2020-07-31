@@ -80,11 +80,11 @@ function burgerMenu() {
         var windowRight = document.querySelector("div#window-right");
         if (windowLeft.style.width === "25%") {
             windowLeft.style.width = "56px";
-            windowLeft.style.height = window.innerHeight + 'px';
+            // windowLeft.style.height = window.innerHeight + 'px';
             windowRight.style.width = "calc(100vw - 56px)";
         } else {
             windowLeft.style.width = "25%";
-            windowLeft.style.height = "100%";
+            // windowLeft.style.height = "100%";
             windowRight.style.width = "75%";
         }
 

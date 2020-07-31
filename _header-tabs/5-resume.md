@@ -12,7 +12,7 @@ fa-icon: "far fa-file"
 
 *[Open in HTML]({{site.baseurl}}/web-resume)*  
 
-*[Download]({{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%})*  
+*[Download]({{site.baseurl}}{%- link assets/pdf/Resume.pdf -%})*  
 
 <br>
-<object id="resume-pdf" data="{{site.baseurl}}{%- link assets/pdf/ananto-resume.pdf -%}" width="100%" height="650" type='application/pdf'/>  
+<object id="resume-pdf" data="{{site.baseurl}}{%- link assets/pdf/Resume.pdf -%}" width="100%" height="650" type='application/pdf'/>  

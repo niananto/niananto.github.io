@@ -10,7 +10,7 @@ excerpt_separator: <!-- end-excerpt -->
 Hello!  
 I see you have interest in my playlist.  
 <!-- end-excerpt -->
-Hope you won't be dissapointed.  
+Hope you won't be disapointed.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLEwzGLbD27m3eg0_FqSYEptp40S6uzwUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   

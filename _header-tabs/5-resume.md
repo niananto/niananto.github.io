@@ -2,7 +2,7 @@
 layout: page
 title: Resume
 permalink: /resume
-fa-icon: "fas fa-file"
+fa-icon: "far fa-file"
 ---
 <style>
     div#window-right {

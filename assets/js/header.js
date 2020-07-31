@@ -79,9 +79,9 @@ function burgerMenu() {
         var windowLeft = document.querySelector("div#window-left");
         var windowRight = document.querySelector("div#window-right");
         if (windowLeft.style.width === "25%") {
-            windowLeft.style.width = "5%";
+            windowLeft.style.width = "56px";
             windowLeft.style.height = window.innerHeight + 'px';
-            windowRight.style.width = "95%";
+            windowRight.style.width = "calc(100vw - 56px)";
         } else {
             windowLeft.style.width = "25%";
             windowLeft.style.height = "100%";

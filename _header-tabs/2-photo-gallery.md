@@ -30,7 +30,7 @@ fa-icon: "fas fa-images"
 {%- if myimage.extname == ".jpg" or myimage.extname ==  ".JPG" or myimage.extname == ".jpeg" or myimage.extname == ".png" -%}
 
 <a href="{{site.url}}{{ myimage.path | relative_url }}">
-<img src="{{site.url}}{{ myimage.path | remove: myimage.name | append: "thumb/" | append: myimage.name | relative_url }}" height="200px" />
+<img src="{{site.url}}{{ myimage.path | remove: myimage.name | append: "thumb/" | append: myimage.name | relative_url }}" alt="{{myimage.basename}}" height="150px" />
 </a>
 
 {%- endif -%}

@@ -10,7 +10,7 @@ request.onload = function() {
         var readmeUrl = status.url + '/readme';
 
         statusHTML += '<a href="#" onclick="showReadme(\''+ status.name + '\',\'' + readmeUrl + '\')">';
-        statusHTML += '<div class="project">' + '<i class="fas fa-code-branch"></i>&emsp;';
+        statusHTML += '<div class="project"><span>' + '<i class="fas fa-code-branch"></i>&emsp;';
         // statusHTML += status.id + ' ';
         // statusHTML += '<a href=' + status.html_url +'>' + status.name + '</a> ';
         // console.log(readmeUrl);
@@ -18,7 +18,7 @@ request.onload = function() {
         // console.log(status.url + '/readme');
         // statusHTML += status.html_url + '';
         // statusHTML += status.language;
-        statusHTML += '</div>';
+        statusHTML += '</span></div>';
         statusHTML += '</a>';
     });
 

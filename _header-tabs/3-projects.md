@@ -68,9 +68,9 @@ Follow me on [GitHub](https://github.com/niananto) -->
         width: 50%;
         /* float: right; */
         position: fixed;
-        top: 3vh;
+        top: 6vh;
         left: 38%;
-        height: calc(100vh - 11vh);
+        height: calc(100vh - 14vh);
         display:none;
         overflow-y: auto;
         /* background:#ffe8e8; */

@@ -276,8 +276,8 @@ object#resume-pdf {
 
     .main-content {
         padding: 20px;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 8%;
+        padding-right: 5%;
     }
 
     .post-content a:link, .post-content a:visited {

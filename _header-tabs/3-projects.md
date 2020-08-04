@@ -38,9 +38,11 @@ Follow me on [GitHub](https://github.com/niananto) -->
 
 <div class="github-chart-container">
     <h1>My Github Contribution Chart</h1>
-    <div id="github-chart">
-        <img src="http://ghchart.rshah.org/nazmulislamananto" alt="Ananto's Github chart" />
-    </div>
+    <a href="https://github.com/nazmulislamananto">
+        <div id="github-chart">
+            <img src="http://ghchart.rshah.org/nazmulislamananto" alt="Ananto's Github chart" />
+        </div>
+    </a>    
 </div>
 
 <script src="{{site.baseurl}}{%- link assets/js/projects.js -%}"></script>

@@ -30,6 +30,7 @@ Follow me on [GitHub](https://github.com/niananto) -->
     .project-list {
         width: 30%;
         float: left;
+        height: 100px;
     }
 
     .project {
@@ -37,9 +38,9 @@ Follow me on [GitHub](https://github.com/niananto) -->
         /* background: lightcyan; */
         /* background: rgb(218,237,244); */
         /* height: fit-content; */
-        min-height: 50px;
-        line-height: 50px;
-        vertical-align: 20px;
+        min-height: 30px;
+        line-height: 30px;
+        vertical-align: 20px; /* this is gonna be overridden */
         background: rgb(232,244,248);
         color: #000;
         padding: 10px 10px;
@@ -47,7 +48,7 @@ Follow me on [GitHub](https://github.com/niananto) -->
         margin-bottom: 20px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
 
     .project:hover {
@@ -61,7 +62,7 @@ Follow me on [GitHub](https://github.com/niananto) -->
     .project span {
         display: inline-block;
         vertical-align: middle;
-        line-height: 25px;
+        line-height: 30px;
     }
 
     #readme-container {
@@ -88,10 +89,26 @@ Follow me on [GitHub](https://github.com/niananto) -->
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
+    #github-chart img {
+        display: none;
+        width: 100%;
+        height: 100px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .project {
+            font-size: 1em;
+        }
+    }
+
+
 </style>
 
 <div>  
     <div class="project-list">
+    <div id="github-chart">
+    <img src="http://ghchart.rshah.org/nazmulislamananto" alt="Ananto's Github chart" />
+    </div>
         <!-- here would be the list of repos -->
     </div>
     <div id="readme-container">

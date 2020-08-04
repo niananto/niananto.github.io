@@ -29,7 +29,6 @@ request.send();
 function showReadme(statusName, readmeUrl) {
     var statusHTML = '';
     var request2 = new XMLHttpRequest()
-    // request2.open('GET', 'https://api.github.com/repos/niananto/four-in-a-row/readme', true)
     request2.open('GET', readmeUrl, true);
     request2.onload = function() {
         $('div#readme-container').css({'display': 'block'});

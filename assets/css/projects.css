@@ -9,12 +9,13 @@ div#window-right {
     display: flex;
     justify-content: space-between;
     align-items: strech;
-    height: 80vh;
+    /* height: 60vh; */
+    overflow-y: auto;
 }
 
 .project-list {
     order: 1;
-    width: 20%;
+    width: 30%;
     /* float: left; */
     /* position: fixed; */
     /* height: 100px; */
@@ -35,7 +36,7 @@ div#window-right {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .project:hover {
@@ -54,13 +55,15 @@ div#window-right {
 
 #readme-container {
     order: 2;
-    width: 70%;
+    width: 55%;
+    font-size: 0.8em;
     /* float: right; */
     /* position: fixed; */
     /* top: 6vh; */
     /* left: 38%; */
-    /* height: calc(100vh - 14vh); */
+    height: calc(100vh - 40vh);
     display: none;
+    /* height: 50vh; */
     overflow-y: auto;
     /* background:#ffe8e8; */
     /* background: #d3fcff; */
@@ -77,19 +80,45 @@ div#window-right {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.github-chart-container {
+    margin-top: 50px;
+}
+
 #github-chart {
-    display: none;
-    height: 200px;
+    /* display: none; */
+    padding: 2% 5%;
+    /* height: 200px; */
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(232,244,248,1), white);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#github-chart:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #github-chart img {
     /* display: none; */
-    /* width: 100%; */
-    /* height: 200px; */
+    width: 100%;
+    /* height: 120px; */
 }
 
 @media only screen and (min-width: 1000px) {
     .project {
         font-size: 1em;
+    }
+
+    .project-list {
+        width: 20%;
+    }
+
+    #readme-container {
+        width: 70%;
+        height: 70vh;
+    }
+
+    #github-chart img {
+        width: 80%;
     }
 }

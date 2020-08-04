@@ -104,6 +104,6 @@ Follow me on [GitHub](https://github.com/niananto) -->
     </div>
 </div>
 
-<script src="/assets/js/projects.js"></script>
-<script src="/assets/js/mmd.js"></script>
+<script src="{{site.baseurl}}{%- link assets/js/projects.js -%}"></script>
+<script src="{{site.baseurl}}{%- link assets/js/mmd.js -%}"></script>
 <!-- <script>console.log( mmd('Markdown is **sweet**') );</script> -->

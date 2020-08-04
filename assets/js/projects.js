@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest()
-request.open('GET', 'https://api.github.com/users/niananto/repos', true)
+request.open('GET', 'https://api.github.com/users/nazmulislamananto/repos', true)
 
 request.onload = function() {
     var data = JSON.parse(this.response);

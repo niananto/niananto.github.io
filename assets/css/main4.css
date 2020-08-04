@@ -232,7 +232,8 @@ object#resume-pdf {
         height: 100%;
         margin: 0px;
         /* background: lightcyan; /* this is for debugging */
-        background: #d3fcff;
+        /* background: #d3fcff; */
+        background: #f2faff;
         /* background: white; */
     }
 
@@ -241,7 +242,8 @@ object#resume-pdf {
         margin: 0px;
         /* padding: 0px; */
         /* background: lightcyan; /* this is for debugging */
-        background: #d3fcff;
+        /* background: #d3fcff; */
+        background: #f2faff;
         /* background: white; */
     }
 
@@ -266,7 +268,8 @@ object#resume-pdf {
         width: calc(100vw - 330px);
         height: 100vh;
         /* background: lightcyan; */
-        background: #d3fcff;
+        /* background: #d3fcff; */
+        background: #f2faff;
         /* background: white; */
         /* background-image: linear-gradient(to right, white, #d3fcff); */
         /* background-image: linear-gradient(to right, rgba(211, 252, 255, 0), rgba(211, 252, 255, 1)); */

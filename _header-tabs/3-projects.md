@@ -27,10 +27,19 @@ Follow me on [GitHub](https://github.com/niananto) -->
         background-image: linear-gradient(to right, rgba(238,255,255,01), #fff);
     }
 
+    .project-flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: strech;
+        height: 80vh;
+    }
+
     .project-list {
-        width: 30%;
-        float: left;
-        height: 100px;
+        order: 1;
+        width: 20%;
+        /* float: left; */
+        /* position: fixed; */
+        /* height: 100px; */
     }
 
     .project {
@@ -66,13 +75,14 @@ Follow me on [GitHub](https://github.com/niananto) -->
     }
 
     #readme-container {
-        width: 50%;
+        order: 2;
+        width: 70%;
         /* float: right; */
-        position: fixed;
-        top: 6vh;
-        left: 38%;
-        height: calc(100vh - 14vh);
-        display:none;
+        /* position: fixed; */
+        /* top: 6vh; */
+        /* left: 38%; */
+        /* height: calc(100vh - 14vh); */
+        display: none;
         overflow-y: auto;
         /* background:#ffe8e8; */
         /* background: #d3fcff; */
@@ -89,10 +99,15 @@ Follow me on [GitHub](https://github.com/niananto) -->
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
-    #github-chart img {
+    #github-chart {
         display: none;
-        width: 100%;
-        height: 100px;
+        height: 200px;
+    }
+
+    #github-chart img {
+        /* display: none; */
+        /* width: 100%; */
+        /* height: 200px; */
     }
 
     @media only screen and (min-width: 1000px) {
@@ -104,11 +119,8 @@ Follow me on [GitHub](https://github.com/niananto) -->
 
 </style>
 
-<div>  
+<div class="project-flex-container">  
     <div class="project-list">
-    <div id="github-chart">
-    <img src="http://ghchart.rshah.org/nazmulislamananto" alt="Ananto's Github chart" />
-    </div>
         <!-- here would be the list of repos -->
     </div>
     <div id="readme-container">
@@ -120,6 +132,10 @@ Follow me on [GitHub](https://github.com/niananto) -->
         </div>
     </div>
 </div>
+
+<div id="github-chart">
+        <img src="http://ghchart.rshah.org/nazmulislamananto" alt="Ananto's Github chart" />
+    </div>
 
 <script src="{{site.baseurl}}{%- link assets/js/projects.js -%}"></script>
 <script src="{{site.baseurl}}{%- link assets/js/mmd.js -%}"></script>

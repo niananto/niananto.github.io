@@ -22,7 +22,7 @@ request.onload = function() {
         statusHTML += '</a>';
     });
 
-    $('div.project-list').html(statusHTML);
+    $('div.project-list').append(statusHTML);
 }
 request.send();
 

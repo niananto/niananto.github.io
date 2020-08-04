@@ -323,7 +323,7 @@ object#resume-pdf {
         display: block;
         padding: 8px 10px;
         background: black;
-        color: #d3fcff;
+        color: white;
         width: 35px;
         position: relative;
         top: 10px;
@@ -333,11 +333,15 @@ object#resume-pdf {
         /* z-index: 1; */
     }
     
+    .header-content a:hover.burger-icon {
+        color: #f2faff;
+    }
+   
     .header-content a:active.burger-icon {
-        background-color: #d3fcff;
+        background-color: #f2faff;
         color: black;
     }
-    
+
     .header-content a.burger-icon i {
         /* height: 100px;
         width: 100px; */

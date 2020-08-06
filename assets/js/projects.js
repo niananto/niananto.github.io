@@ -38,7 +38,13 @@ function showReadme(statusName, readmeUrl) {
         var data = JSON.parse(this.response);
         // console.log(atob(data.content));
         // console.log(mmd(atob(data.content)));
-        statusHTML = mmd(atob(data.content));
+
+        const converter = new showdown.Converter();
+        showdown.setFlavor('github');
+        // console.log( converter.makeHtml(atob(data.content)) );
+        statusHTML = converter.makeHtml(atob(data.content));
+
+        // statusHTML = mmd(atob(data.content));
         $('div#readme').html(statusHTML);
     }
 

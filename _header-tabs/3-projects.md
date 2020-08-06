@@ -46,5 +46,13 @@ Follow me on [GitHub](https://github.com/niananto) -->
 </div>
 
 <script src="{{site.baseurl}}{%- link assets/js/projects.js -%}"></script>
-<script src="{{site.baseurl}}{%- link assets/js/mmd.js -%}"></script>
-<!-- <script>console.log( mmd('Markdown is **sweet**') );</script> -->
+<!-- <script src="{{site.baseurl}}{%- link assets/js/mmd.js -%}"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" integrity="sha512-L03kznCrNOfVxOUovR6ESfCz9Gfny7gihUX/huVbQB9zjODtYpxaVtIaAkpetoiyV2eqWbvxMH9fiSv5enX7bw==" crossorigin="anonymous"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.js" integrity="sha512-bvV1V1YSjP1fbfKJjTlNmdnUO2XpsLYUdKwmz5UXBi5U+x40rx9JpA0ooQUMZfpz1MaaBC0ydNLoC6r0sitPUQ==" crossorigin="anonymous"></script> -->
+
+<script>
+    // const converter = new showdown.Converter();
+    // console.log( converter.makeHtml('Markdown is **sweet**') );
+</script>

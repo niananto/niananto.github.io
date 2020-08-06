@@ -227,10 +227,9 @@ object#resume-pdf {
 }
 
 
-/*
+
 @media only screen and (min-width: 1000px) {
-*/
-@media only screen and (orientation: landscape) {
+/* @media only screen and (orientation: landscape) { */
     html {
         font-size: 17px;
     }

@@ -302,6 +302,7 @@ object#resume-pdf {
         text-decoration: none;
         font-weight: lighter;
         font-size: 0.8em;
+        transition: 1s;
     }
 
     div#window-right a.dark-mode-icon i {

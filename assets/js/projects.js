@@ -9,7 +9,7 @@ request.onload = function() {
     $.each(data, function (i, status) { 
         var readmeUrl = status.url + '/readme';
 
-        statusHTML += '<a href="#" onclick="showReadme(\''+ status.name + '\',\'' + readmeUrl + '\')">';
+        statusHTML += '<a href="#" onclick="showReadme(\''+ status.name + '\',\'' + readmeUrl + '\',\'' + status.html_url + '\')">';
         statusHTML += '<div class="project"><span>' + '<i class="fas fa-code-branch"></i>&emsp;';
         // statusHTML += status.id + ' ';
         // statusHTML += '<a href=' + status.html_url +'>' + status.name + '</a> ';
@@ -26,7 +26,7 @@ request.onload = function() {
 }
 request.send();
 
-function showReadme(statusName, readmeUrl) {
+function showReadme(statusName, readmeUrl, statusHtmlUrl) {
     var statusHTML = '';
     var request2 = new XMLHttpRequest()
     request2.open('GET', readmeUrl, true);
@@ -34,6 +34,8 @@ function showReadme(statusName, readmeUrl) {
         $('div#readme-container').css({'display': 'block'});
         $('div#readme-container hr').css({'display': 'block'});
         $('h1#repo-name').html(statusName);
+        $('em#github-link a').attr({'href': statusHtmlUrl});
+        $('em#github-link a').html(statusHtmlUrl);
 
         var data = JSON.parse(this.response);
         // console.log(atob(data.content));

@@ -6,12 +6,16 @@ function darkMode() {
 
     } else {
 
+        var divWindow = document.querySelector(".window");
         var divWindowLeft = document.querySelector("div#window-left");
         var divWindowRight = document.querySelector("div#window-right");
         var divWindowRightLinks = document.querySelectorAll("div#window-right a:link, div#window-right a:visited");
         var darkModeIcon = document.querySelector("a.dark-mode-icon i");
 
-        if ( divWindowLeft.style.borderRightStyle === "unset" ) {
+        if ( divWindowLeft.style.borderRightStyle == "unset" ) {
+
+            divWindow.style.background = "black";
+
             divWindowLeft.style.borderRightStyle = "outset";
             divWindowLeft.style.borderRightColor = "silver";
 
@@ -26,6 +30,9 @@ function darkMode() {
             darkModeIcon.setAttribute("class", "fas fa-toggle-on");
 
         } else {
+
+            divWindow.style.background = "#f2faff";
+
             divWindowLeft.style.borderRightStyle = "unset";
             divWindowLeft.style.borderRightStyle = "unset";
 

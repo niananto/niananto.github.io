@@ -25,12 +25,12 @@ author:
 description: >- # this means to ignore newlines until "baseurl:"
   Student at Bangladesh University of Engineering and Technology (BUET) studying
   Computer Science and Engineering (CSE).
-# facebook_username: nazmulislamananto
-# twitter_username: nazmul_ananto
-# github_username: niananto
-# linkedin_username: niananto
-# instagram_username: ananto___
-# reddit_username: niananto
+facebook_username: nazmulislamananto
+twitter_username: nazmul_ananto
+github_username: niananto
+linkedin_username: nazmulislamananto
+instagram_username: ananto___
+reddit_username: niananto
 
 baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

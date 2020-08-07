@@ -241,19 +241,20 @@ object#resume-pdf {
         height: 100%;
         margin: 0px;
         /* background: lightcyan; /* this is for debugging */
-        /* background: #d3fcff; */
         background: #f2faff;
-        /* background: white; */
+        /* transition: 0s; */
     }
 
-    .window .window-partition {
+    .window-partition {
         display: table-cell;
         margin: 0px;
         /* padding: 0px; */
         /* background: lightcyan; /* this is for debugging */
         /* background: #d3fcff; */
-        background: #f2faff;
+        /* background: #f2faff; */
+        /* background: black; */
         /* background: white; */
+        /* transition: 0.5s; */
     }
 
     div#window-left {

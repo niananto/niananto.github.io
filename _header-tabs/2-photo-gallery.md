@@ -5,9 +5,9 @@ permalink: /photo-gallery
 fa-icon: "fas fa-images"
 ---
 <style>
-    div#window-right {
+    /* div#window-right {
     background: #fff;
-}
+} */
 </style>
 
 <!-- ![photo]({{ "{% thumbnail /assets/img/photo-gallery/photo-1.jpg 50x50 " }}%})   -->

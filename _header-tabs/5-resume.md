@@ -5,9 +5,9 @@ permalink: /resume
 fa-icon: "far fa-file"
 ---
 <style>
-    div#window-right {
+    /* div#window-right {
     background: #ddd;
-}
+} */
 </style>
 
 <i class="fa fa-external-link" aria-hidden="true"></i> *[Open in HTML]({{site.baseurl}}/web-resume)*  

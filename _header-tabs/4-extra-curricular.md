@@ -5,10 +5,9 @@ permalink: /extra-curricular
 fa-icon: "fas fa-trophy"
 ---
 <style>
-    div#window-right {
-    /* background: #a8ffbf; */
+    /* div#window-right {
     background: #ccffd9;
-}
+} */
 </style>
 
 <br>

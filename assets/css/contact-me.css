@@ -13,10 +13,6 @@ div.wrapper {
   align-items: center;
   justify-items: center; }
 
-div.wrapper::before {
-  opacity: 0.5;
-}
-
 div.contact-us {
   margin: 10%;
   /* background: #f8f4e5; */

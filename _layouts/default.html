@@ -18,6 +18,9 @@
               {{ content }}
           </div>
           </main>
+          <div style="text-align: center;">
+            {% include share-buttons.html %}
+          </div>
       </div>
       <div id="social-links-mobile">
         <hr>
@@ -25,7 +28,12 @@
         <hr>
       </div>
     </div>
+
     <script src="{{site.baseurl}}{%- link assets/js/dark-mode.js -%}"></script>
     <script> if(window.innerWidth > 1000) darkMode(); </script>
+  
+    <!-- <script src="{{site.baseurl}}{%- link assets/js/jquery.min.js -%}"></script> -->
+    <!-- {% include comments.html element=".post-content" github_account="nazmulislamananto/home" require_cookie_consent="false" %} -->
+
   </body>
 </html>

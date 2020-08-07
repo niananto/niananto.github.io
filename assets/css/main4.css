@@ -1,3 +1,4 @@
+
 /* default */
 html * {
     font-family: 'Montserrat', serif;
@@ -267,7 +268,7 @@ object#resume-pdf {
         /* padding: 0px; */
         background: black;
         color: white;
-        /* transition: 0.05s; */
+        /* transition: 0.1s; */
         border-right-style: unset;
         border-right-color: unset;
     }
@@ -286,6 +287,7 @@ object#resume-pdf {
         /* background-image: linear-gradient(to right, rgba(211, 252, 255, 0), rgba(211, 252, 255, 1)); */
         /* background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2); */
         /* background: rgba(211, 252, 255, 0.5); */
+        transition: 0.5s;
     }
 
     div#window-right a:link, div#window-right a:visited {

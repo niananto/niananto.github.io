@@ -17,6 +17,7 @@ function darkMode() {
 
             divWindowRight.style.background = "black";
             divWindowRight.style.color = "white";
+            // divWindowRight.style.transition = "1s";
         
             for ( let i=0; i < divWindowRightLinks.length; i++ ){
                 divWindowRightLinks[i].style.color = "#d3fcff";
@@ -30,6 +31,7 @@ function darkMode() {
 
             divWindowRight.style.background = "#f2faff";
             divWindowRight.style.color = "black";
+            // divWindowRight.style.transition = "1s";
 
             for ( let i=0; i < divWindowRightLinks.length; i++ ){
                 divWindowRightLinks[i].style.color = "#006cb0";

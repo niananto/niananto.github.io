@@ -59,11 +59,11 @@ function burgerMenu() {
         var headerTabs = document.getElementById("header-tabs");
         var headerTabsP = document.querySelectorAll("div#header-tabs p");
         if (headerTabs.style.marginTop === "18%") {
-            headerTabs.style.marginTop = "30vh";
+            headerTabs.style.marginTop = "25vh";
             for ( let i = 0; i<headerTabsP.length; i++) {
                 headerTabsP[i].style.paddingLeft = "0px";
-                headerTabsP[i].style.paddingTop = "10px";
-                headerTabsP[i].style.paddingBottom = "10px";
+                headerTabsP[i].style.paddingTop = "2vh";
+                headerTabsP[i].style.paddingBottom = "0vh";
                 headerTabsP[i].style.textAlign = "center";
             }
         } else {

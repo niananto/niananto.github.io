@@ -19,9 +19,9 @@ function darkMode() {
             divWindowLeft.style.borderRightStyle = "outset";
             divWindowLeft.style.borderRightColor = "silver";
 
-            divWindowRight.style.background = "#121212";
-            divWindowRight.style.color = "white";
-            // divWindowRight.style.transition = "1s";
+            // important na dileo hocche right now
+            divWindowRight.style.setProperty("background", "#121212", "important");
+            divWindowRight.style.setProperty("color", "white", "important");
         
             for ( let i=0; i < divWindowRightLinks.length; i++ ){
                 divWindowRightLinks[i].style.color = "#d3fcff";
@@ -36,9 +36,8 @@ function darkMode() {
             divWindowLeft.style.borderRightStyle = "unset";
             divWindowLeft.style.borderRightStyle = "unset";
 
-            divWindowRight.style.background = "#f2faff";
-            divWindowRight.style.color = "black";
-            // divWindowRight.style.transition = "1s";
+            divWindowRight.style.setProperty("background", "#f2faff");
+            divWindowRight.style.setProperty("color", "black");
 
             for ( let i=0; i < divWindowRightLinks.length; i++ ){
                 divWindowRightLinks[i].style.color = "#006cb0";

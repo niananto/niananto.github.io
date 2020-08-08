@@ -6,16 +6,11 @@
 /* } */
 
 .project-flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: strech;
-    /* height: 60vh; */
-    overflow-y: auto;
+    width: 100%;    
 }
 
 .project-list {
-    order: 1;
-    width: 30%;
+    
     /* float: left; */
     /* position: fixed; */
     /* height: 100px; */
@@ -26,8 +21,8 @@
     /* background: lightcyan; */
     /* background: rgb(218,237,244); */
     /* height: fit-content; */
-    min-height: 30px;
-    line-height: 30px;
+    min-height: 20px;
+    line-height: 20px;
     vertical-align: 20px; /* this is gonna be overridden */
     background: rgb(232,244,248);
     color: #000;
@@ -41,6 +36,7 @@
 }
 
 .project:hover {
+    background: white;
     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
     box-shadow: 0 8px 16px 0 rgba(192,192,192,0.8);
 }
@@ -52,18 +48,16 @@
 .project span {
     display: inline-block;
     vertical-align: middle;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 #readme-container {
-    order: 2;
-    width: 55%;
-    font-size: 0.8em;
+    font-size: 80%;
     /* float: right; */
     /* position: fixed; */
     /* top: 6vh; */
     /* left: 38%; */
-    height: calc(100vh - 40vh);
+    height: 40vh;
     display: none;
     /* height: 50vh; */
     overflow-y: auto;
@@ -108,17 +102,39 @@
 }
 
 @media only screen and (min-width: 1000px) {
-    .project {
-        font-size: 1em;
+    .project-flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: strech;
+        /* height: 60vh; */
+        overflow-y: auto;
     }
 
     .project-list {
+        order: 1;
         width: 20%;
+    }
+    
+    .project {
+        min-height: 30px;
+        line-height: 30px;
+        vertical-align: 20px; /* this is gonna be overridden */
+        font-size: 1em;
+    }
+
+    .project:hover {
+        background: initial;
+    }
+
+    .project span {
+        line-height: 30px;
     }
 
     #readme-container {
+        order: 2;
         width: 70%;
         height: 80vh;
+        font-size: 0.8em;
     }
 
     #github-chart img {

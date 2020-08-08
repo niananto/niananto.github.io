@@ -42,7 +42,7 @@ function darkMode() {
             darkModeIcon.setAttribute("class", "fas fa-toggle-on");
 
             if(contactWrapper){
-                contactWrapper.style.setProperty('background', 'url("../assets/img/contact-bg-4.jpg") center center no-repeat');
+                contactWrapper.style.setProperty('background', 'url("../../assets/img/contact-bg-4.jpg") center center no-repeat');
                 contactUs.style.setProperty('background', '#ddd');
             }
 
@@ -80,7 +80,7 @@ function darkMode() {
             darkModeIcon.setAttribute("class", "fas fa-toggle-off");
 
             if(contactWrapper){
-                contactWrapper.style.setProperty('background', 'url("../assets/img/contact-bg-2.jpg") center center no-repeat');
+                contactWrapper.style.setProperty('background', 'url("../../assets/img/contact-bg-2.jpg") center center no-repeat');
                 contactUs.style.setProperty('background', '#f2faff');
             }
 

@@ -267,7 +267,8 @@ object#resume-pdf {
         overflow-x: hidden;
         margin: 0px;
         /* padding: 0px; */
-        background: black;
+        /* background: black; */
+        background: #121212;
         color: white;
         /* transition: 0.1s; */
         border-right-style: unset;

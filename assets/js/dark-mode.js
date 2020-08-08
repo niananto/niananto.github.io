@@ -14,12 +14,12 @@ function darkMode() {
 
         if ( divWindowLeft.style.borderRightStyle == "unset" ) {
 
-            divWindow.style.background = "black";
+            divWindow.style.background = "#121212";
 
             divWindowLeft.style.borderRightStyle = "outset";
             divWindowLeft.style.borderRightColor = "silver";
 
-            divWindowRight.style.background = "black";
+            divWindowRight.style.background = "#121212";
             divWindowRight.style.color = "white";
             // divWindowRight.style.transition = "1s";
         

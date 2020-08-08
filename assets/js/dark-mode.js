@@ -11,7 +11,9 @@ function darkMode() {
         var divWindowRight = document.querySelector("div#window-right");
         var divWindowRightLinks = document.querySelectorAll("div#window-right a:link, div#window-right a:visited");
         var darkModeIcon = document.querySelector("a.dark-mode-icon i");
-        var contactWrapper = document.querySelector("div.wrapper");
+        var contactWrapper = document.querySelector("#window-right > main > div > article > div > div.wrapper");
+        var contactUs = document.querySelector("div.contact-us");
+        var contactUsInput = document.querySelectorAll("div.contact-us input");
 
         if ( divWindowLeft.style.borderRightStyle == "unset" ) {
 
@@ -32,6 +34,12 @@ function darkMode() {
 
             contactWrapper.style.setProperty('background', 'url("/assets/img/contact-bg-4.jpg") center center no-repeat');
 
+            contactUs.style.setProperty('background', '#ddd');
+
+            for( let i=0; i < contactUsInput.length; i++ ){
+                contactUsInput[i].style.setProperty("background", "#ddd");
+            }
+
         } else {
 
             divWindow.style.background = "#f2faff";
@@ -49,6 +57,12 @@ function darkMode() {
             darkModeIcon.setAttribute("class", "fas fa-toggle-off");
 
             contactWrapper.style.setProperty('background', 'url("/assets/img/contact-bg-2.jpg") center center no-repeat');
+
+            contactUs.style.setProperty('background', '#f2faff');
+
+            for( let i=0; i < contactUsInput.length; i++ ){
+                contactUsInput[i].style.setProperty("background", "#f2faff");
+            }
 
         }
 

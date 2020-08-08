@@ -11,6 +11,7 @@ function darkMode() {
         var divWindowRight = document.querySelector("div#window-right");
         var divWindowRightLinks = document.querySelectorAll("div#window-right a:link, div#window-right a:visited");
         var darkModeIcon = document.querySelector("a.dark-mode-icon i");
+        var contactWrapper = document.querySelector("div.wrapper");
 
         if ( divWindowLeft.style.borderRightStyle == "unset" ) {
 
@@ -29,6 +30,8 @@ function darkMode() {
 
             darkModeIcon.setAttribute("class", "fas fa-toggle-on");
 
+            contactWrapper.style.setProperty('background', 'url("/assets/img/contact-bg-4.jpg") center center no-repeat');
+
         } else {
 
             divWindow.style.background = "#f2faff";
@@ -44,6 +47,8 @@ function darkMode() {
             }
 
             darkModeIcon.setAttribute("class", "fas fa-toggle-off");
+
+            contactWrapper.style.setProperty('background', 'url("/assets/img/contact-bg-2.jpg") center center no-repeat');
 
         }
 

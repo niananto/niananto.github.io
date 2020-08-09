@@ -1,7 +1,7 @@
 
 /* default */
 html * {
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* If the browser window is smaller than 1000px, make the columns stack on top of each other */
@@ -202,6 +202,11 @@ div#header-tabs p a span {
 } */
 
 /* home */
+h3.post-link-header {
+    display: block;
+    margin-block-end: 0.3em;
+}
+
 a:visited.post-link, a:link.post-link {
     /* color: blue; */
     color: #006cb0;
@@ -486,6 +491,15 @@ object#resume-pdf {
     }
 
     /* home */
+    div.post-list {
+        width: 80%;
+    }
+
+    h3.post-link-header {
+        display: block;
+        margin-block-end: 0.3em;
+    }
+
     a:visited.post-link, a:link.post-link {
         /* color: blue; */
         color: #006cb0;
@@ -496,6 +510,10 @@ object#resume-pdf {
     .post-meta {
         font-size: 12px;
         font-style: italic;
+    }
+
+    .post-excerpts {
+        margin-top: 1em;
     }
 
     .dt-published, .dt-modified {

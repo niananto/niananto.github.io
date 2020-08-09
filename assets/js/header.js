@@ -42,7 +42,7 @@ function burgerMenu() {
             profilePic.style.display = "inline-block";
         }
 
-        var siteTitle = document.querySelector("span.site-title");
+        var siteTitle = document.querySelector("h1.site-title");
         if (siteTitle.style.display === "block") {
             siteTitle.style.display = "none";
         } else {

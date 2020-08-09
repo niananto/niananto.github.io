@@ -80,7 +80,7 @@ a.social-icons i {
     padding-right: 10px;
 }
 
-span.site-title {
+h1.site-title {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -90,7 +90,7 @@ span.site-title {
     font-weight: bold;
 }
 
-span.site-title a {
+h1.site-title a {
     display: inline;
     color: white;
     text-decoration: none;
@@ -338,7 +338,7 @@ object#resume-pdf {
         padding-right: 20px;
     }
 
-    span.site-title {
+    h1.site-title {
         display: block;
         font-size: 1.5em;
         margin-block-start: 0.5em;
@@ -348,7 +348,7 @@ object#resume-pdf {
         font-weight: bold;
     }
 
-    span.site-title a {
+    h1.site-title a {
         display: inline;
         color: white;
         text-decoration: none;

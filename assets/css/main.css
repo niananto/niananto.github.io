@@ -207,6 +207,16 @@ h3.post-link-header {
     margin-block-end: 0.3em;
 }
 
+.home-content, .post-list {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/* .post-excerpts {
+    font-size: 30px;
+    line-height: 42px;
+} */
+
 a:visited.post-link, a:link.post-link {
     /* color: blue; */
     color: #006cb0;

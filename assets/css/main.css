@@ -219,6 +219,11 @@ a:visited.post-link, a:link.post-link {
     font-style: italic;
 }
 
+.post-content {
+    font-size: 30px;
+    line-height: 42px;
+}
+
 .dt-published, .dt-modified {
     color: rgb(167, 164, 164);
 }
@@ -510,6 +515,11 @@ object#resume-pdf {
     .post-meta {
         font-size: 12px;
         font-style: italic;
+    }
+
+    .post-content {
+        font-size: unset;
+        line-height: unset;
     }
 
     .post-excerpts {

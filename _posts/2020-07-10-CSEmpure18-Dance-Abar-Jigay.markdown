@@ -3,11 +3,13 @@ layout: post
 author: Ananto
 title: Abar Jigay
 permalink: /abar-jigay
+show_excerpts: true
+excerpts_separator: <!-- end-excerpt -->
 ---
 
 On the 5th of March, BUET CSE'17 threw a receiption program for us, CSE'18.  
 I, along with Ababil, Aungon, Tamim, Anup, Anik, Dhrubo, performed in Abar Jigay by Stoic Bliss.  
-
+<!-- end-excerpt -->
 Enjoy  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y1TDsriMjDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  

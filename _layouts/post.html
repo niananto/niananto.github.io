@@ -29,20 +29,21 @@ layout: default
         • {% for author in page.author %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                 {%- if page.author-social-link -%}
-                <a href="{{page.author-social-link}}"><span class="p-author h-card" itemprop="name">{{ author }}</span></a>
+                <a href="{{page.author-social-link}}"><span class="p-author h-card" itemprop="name">{{ author }} </span></a>
                 {%- else -%}
-                <span class="p-author h-card" itemprop="name">{{ author }}</span>
+                <span class="p-author h-card" itemprop="name">{{ author }} </span>
                 {%- endif -%}
             </span>
                 {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-        {%- endif -%}</p>
+        {%- endif -%}
+        • {% include reading-time.html %}
+    </p>
     </div>
     
     <br><br>
 
     <div class="post-content e-content" itemprop="articleBody">
-    {% include reading-time.html %}
     {{ content }}
     </div>
 

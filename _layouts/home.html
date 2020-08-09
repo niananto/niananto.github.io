@@ -8,7 +8,11 @@ layout: default
             <h1 class="post-title">Welcome to my blog / portfolio !</h1>
           </header>
         <div class="home-content">
-            <br>{{content}}<br>
+            <br>    
+            {% include search-lunr.html %}
+            <!-- {% include search-google.html %} -->
+            {{content}}
+            <br>
         </div>
         <div class="post-list">
             {%- if site.posts.size > 0 -%} {%- if page.list_title -%}

@@ -11,7 +11,6 @@ fa-icon: "far fa-address-card"
     } */
 </style>
 
-<link href="{{site.baseurl}}{%- link assets/css/contact-me.css -%}" rel="stylesheet">
 <div class="wrapper">
     <div class="contact-us">
         <form   action="https://formspree.io/xpzyklgv" method="POST">

@@ -20,7 +20,6 @@ fa-icon: "fas fa-code"
 Follow me on [GitHub](https://github.com/niananto) -->
 
 
-<link rel="stylesheet" href="{{site.baseurl}}{%- link assets/css/projects.css -%}">
 
 <div class="project-flex-container">  
     <div class="project-list">

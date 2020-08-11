@@ -5,8 +5,8 @@ html, html[data-theme="light"] {
     --window-bg: #f2faff;
     --window-right-bg: #f2faff;
     --window-right-color: black;
-    --window-left-border-right-style: unset;
-    --window-left-border-right-color: unset;
+    --window-left-border-right-style: outset;
+    --window-left-border-right-color: black;
     --window-right-anchor-color: #006cb0;
     
     /* --dark-mode-toggle-icon: fas fa-toggle-off; */

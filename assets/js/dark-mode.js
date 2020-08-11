@@ -6,18 +6,18 @@ function darkMode() {
 
     } else {
 
-        var divWindow = document.querySelector(".window");
-        var divWindowLeft = document.querySelector("div#window-left");
-        var divWindowRight = document.querySelector("div#window-right");
-        // var divWindowRights = document.querySelectorAll("div#window-right *");
-        var divWindowRightLinks = document.querySelectorAll("div#window-right a:link, div#window-right a:visited");
-        var darkModeIcon = document.querySelector("a.dark-mode-icon i");
-        var contactWrapper = document.querySelector("#window-right > main > div > article > div > div.wrapper");
-        var contactUs = document.querySelector("div.contact-us");
-        var contactUsInput = document.querySelectorAll("div.contact-us input");
-        var project = document.getElementsByClassName("project");
-        var readmeContainer = document.querySelector('#readme-container');
-        var githubChart = document.querySelector("#github-chart");
+        let divWindow = document.querySelector(".window");
+        let divWindowLeft = document.querySelector("div#window-left");
+        let divWindowRight = document.querySelector("div#window-right");
+        // let divWindowRights = document.querySelectorAll("div#window-right *");
+        let divWindowRightLinks = document.querySelectorAll("div#window-right a:link, div#window-right a:visited");
+        let darkModeIcon = document.querySelector("a.dark-mode-icon i");
+        let contactWrapper = document.querySelector("#window-right > main > div > article > div > div.wrapper");
+        let contactUs = document.querySelector("div.contact-us");
+        let contactUsInput = document.querySelectorAll("div.contact-us input");
+        let project = document.getElementsByClassName("project");
+        let readmeContainer = document.querySelector('#readme-container');
+        let githubChart = document.querySelector("#github-chart");
 
         if ( divWindowLeft.style.borderRightStyle == "unset" ) {
 

@@ -1,7 +1,7 @@
 # mapping values are not allowed in this context
 
 github:
-  id: 'nazmulislamananto'
+  id: 'niananto'
   # id = {{ site.github_username }}
   href: 'https://github.com/'
   title: 'GitHub'

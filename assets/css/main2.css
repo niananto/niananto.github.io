@@ -547,7 +547,6 @@ div.contact-us input:-webkit-autofill:focus {
         position: absolute;
         top: 10px;
         right: 15px;
-        color: black;
         text-decoration: none;
         font-weight: lighter;
         font-size: 0.8em;
@@ -798,9 +797,9 @@ div.contact-us input:-webkit-autofill:focus {
         font-size: 1em;
     }
 
-    .project:hover {
-        background: initial;
-    }
+    /* .project:hover {
+        background: unset;
+    } */
 
     .project span {
         line-height: 30px;

@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  <script>
+    
+  const theme = localStorage.getItem('theme');
+  if (theme === "dark") {
+      document.documentElement.setAttribute('data-theme', 'dark');
+  }
+
+  const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	
+
+  if (theme === "dark") {
+      // document.getElementById("theme-toggle").innerHTML = "Light Mode";
+      document.querySelector("a.dark-mode-icon i").setAttribute("class", "fas fa-toggle-on");
+  } else if (theme === "light") {
+      // document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+      document.querySelector("a.dark-mode-icon i").setAttribute("class", "fas fa-toggle-off");
+  } else if  (userPrefers === "dark") {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.localStorage.setItem('theme', 'dark');
+      // document.getElementById("theme-toggle").innerHTML = "Light Mode";
+      document.querySelector("a.dark-mode-icon i").setAttribute("class", "fas fa-toggle-on");
+  } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      window.localStorage.setItem('theme', 'light');
+      // document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+      document.querySelector("a.dark-mode-icon i").setAttribute("class", "fas fa-toggle-off");
+  }
+
+  </script>
+
   {%- include head.html -%}
 
   <body class="window">
@@ -10,8 +39,8 @@
       </div>
       <div class="window-partition" id="window-right">
           <a href="javascript:void(0);" class="dark-mode-icon" onclick="darkMode()">
-            <!-- <i class="fas fa-adjust"></i> Dark Mode -->
-            <i class="fas fa-toggle-off"></i> Dark Mode
+            <!-- <i class="fas fa-adjust"></i> <span id="theme-toggle">Dark Mode</span> -->
+            <i class="fas fa-toggle-off"></i> <span id="theme-toggle">Dark Mode</span>
           </a>
           <main>
           <div class="main-content">
@@ -26,6 +55,6 @@
       </div>
     </div>
     <script src="{{site.baseurl}}{%- link assets/js/dark-mode.js -%}"></script>
-    <script> if(window.innerWidth > 1000) darkMode(); </script>
+    <!-- <script> if(window.innerWidth > 1000) darkMode(); </script> -->
   </body>
 </html>

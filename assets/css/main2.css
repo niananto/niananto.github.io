@@ -11,7 +11,7 @@ html, html[data-theme="light"] {
     
     /* --dark-mode-toggle-icon: fas fa-toggle-off; */
     
-    --contact-bg-image: url("assets/img/contact-bg-2.jpg") center center no-repeat;
+    --contact-bg-image: url("../../assets/img/contact-bg-2.jpg") center center no-repeat;
     --contact-bg-color: #f2faff;
 
     --project-bg-color-solid: rgb(232,244,248);
@@ -28,7 +28,7 @@ html[data-theme="dark"] {
     
     /* --dark-mode-toggle-icon: fas fa-toggle-on; */
     
-    --contact-bg-image: url("assets/img/contact-bg-4.jpg") center center no-repeat;
+    --contact-bg-image: url("../../assets/img/contact-bg-4.jpg") center center no-repeat;
     --contact-bg-color: #ddd;
 
     --project-bg-color-solid: #ddd;

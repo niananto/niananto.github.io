@@ -42,7 +42,7 @@ Follow me on [GitHub](https://github.com/niananto) -->
     <h1>My Github Contribution Chart</h1>
     <a href="https://github.com/nazmulislamananto">
         <div id="github-chart">
-            <img src="http://ghchart.rshah.org/nazmulislamananto" alt="Ananto's Github chart" />
+            <img src="http://ghchart.rshah.org/niananto" alt="Ananto's Github chart" />
         </div>
     </a>    
 </div>

@@ -55,6 +55,31 @@
       </div>
     </div>
     <script src="{{site.baseurl}}{%- link assets/js/dark-mode.js -%}"></script>
-    <!-- <script> if(window.innerWidth > 1000) darkMode(); </script> -->
+    <script>
+      
+$(function () {
+
+    if ( window.innerWidth > 1000 ){
+      var sidebar = $('html body div#window-left');
+      var extraHeight = 720 - window.innerHeight;
+
+      $(window).scroll(function (event) {
+        var y = $(this).scrollTop();
+
+        if ( extraHeight > 0 ){
+          if ( y >= extraHeight ){
+            sidebar.addClass('fixed-bottom');
+          } else {
+            sidebar.removeClass('fixed-bottom');
+          }
+        } else {
+          sidebar.addClass('fixed-top');
+        }
+      });
+    }
+
+  });
+
+    </script>
   </body>
 </html>

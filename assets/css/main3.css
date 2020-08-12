@@ -244,8 +244,8 @@ h3.post-link-header {
 }
 
 .home-content, .post-list {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 33px;
+    line-height: 45px;
 }
 
 /* .post-excerpts {
@@ -266,8 +266,8 @@ a:visited.post-link, a:link.post-link {
 }
 
 .post-content {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 33px;
+    line-height: 50px;
 }
 
 .dt-published, .dt-modified {

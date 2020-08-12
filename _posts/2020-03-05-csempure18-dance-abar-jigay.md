@@ -2,7 +2,6 @@
 layout: post
 author: Ananto
 title: Abar Jigay
-permalink: /abar-jigay
 show_excerpts: true
 excerpts_separator: <!-- end-excerpt -->
 ---

@@ -62,6 +62,9 @@ $(function () {
     if ( window.innerWidth > 1000 ){
 
       var sidebar = $('html body div#window-left');
+      var extraHeight = parseInt(sidebar.css('height'), 10) - window.innerHeight;
+      sidebar.removeClass('fixed-bottom');
+      sidebar.removeClass('fixed-top');
 
       $(window).scroll(function (event) {
         var extraHeight = parseInt(sidebar.css('height'), 10) - window.innerHeight;

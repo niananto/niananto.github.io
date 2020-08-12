@@ -65,6 +65,7 @@ $(function () {
       var extraHeight = parseInt(sidebar.css('height'), 10) - window.innerHeight;
       sidebar.removeClass('fixed-bottom');
       sidebar.removeClass('fixed-top');
+      window.scrollTo(0, 0);
 
       $(window).scroll(function (event) {
         var extraHeight = parseInt(sidebar.css('height'), 10) - window.innerHeight;

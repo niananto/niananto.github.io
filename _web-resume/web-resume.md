@@ -3,4 +3,4 @@ title: Web Resume
 permalink: /web-resume
 ---
 
-{%- include web-resume.html -%}
+{%- include web-resume-02.html -%}
